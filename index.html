@@ -18,22 +18,99 @@
             <a href="#"><button>About</button></a>
           </li>
           <li>
-            <a href="#"><button>Whatever</button></a>
+            <a href="#"><button>contact</button></a>
           </li>
           <li>
-            <a href="#"><button>Random</button></a>
+            <a href="#"><button>FAQ</button></a>
           </li>
         </ul>
       </nav>
     </header>
     <h1>This is the top</h1>
 
-    <img src="./dobie.jpg" alt="bird"  />
-    
+    <img src="./dobie.jpg" alt="bird" />
+
     <br />
     <br />
+    <br />
+
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="south-africa">South Africa</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="What are your thoughts.."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="contain">
+      <div class="row">
+        <div class="col"><h1>Snowy Owl</h1></div>
+        <img class="img-responsive" src="./owl2.jpg" />
+        <div class="col"><h1>Eagle Owl</h1></div>
+        <img class="img-responsive" src="./Eagle_owl.JPG" />
+        <br />
+      </div>
+    </div>
+    <br />
+
     <div class="feet">
-      <footer>This is a is a foot not a leg.&copy; copyright</footer>
+      <footer>This is a is a footer. &copy; copyright</footer>
     </div>
   </body>
 </html>
